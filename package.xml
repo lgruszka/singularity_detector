@@ -1,0 +1,26 @@
+<package>
+  <name>singularity_detector</name>
+  <version>1.4.0</version>
+  <description>Detect and classify the position of a robot in the proximity of a singular position</description>
+  <maintainer email="l.gruszka@easyrobots.eu">Lukasz Gruszka</maintainer>
+
+  <license>BSD</license>
+
+  <author email="l.gruszka@easyrobots.eu">Lukasz Gruszka</author>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>std_msgs</build_depend> 
+  <build_depend>rtt_rosclock</build_depend>
+
+  <build_depend>rtt</build_depend>
+  <build_depend>rtt_ros</build_depend>
+
+  <run_depend>rtt</run_depend>
+  <run_depend>rtt_ros</run_depend>
+
+  <export>
+    <rtt_plugin_depend>rtt_ros</rtt_plugin_depend>
+  </export>
+</package>
